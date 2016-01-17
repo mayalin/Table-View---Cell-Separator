@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDCBA9551C4B922C00B10471 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCBA9541C4B922C00B10471 /* AppDelegate.swift */; };
+		DDCBA9571C4B922C00B10471 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCBA9561C4B922C00B10471 /* ViewController.swift */; };
+		DDCBA95A1C4B922C00B10471 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDCBA9581C4B922C00B10471 /* Main.storyboard */; };
+		DDCBA95C1C4B922C00B10471 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDCBA95B1C4B922C00B10471 /* Assets.xcassets */; };
+		DDCBA95F1C4B922C00B10471 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDCBA95D1C4B922C00B10471 /* LaunchScreen.storyboard */; };
+		DDCBA96A1C4B922C00B10471 /* Table_View___Cell_SeparatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCBA9691C4B922C00B10471 /* Table_View___Cell_SeparatorTests.swift */; };
+		DDCBA9751C4B922C00B10471 /* Table_View___Cell_SeparatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCBA9741C4B922C00B10471 /* Table_View___Cell_SeparatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDCBA9661C4B922C00B10471 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDCBA9491C4B922C00B10471 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDCBA9501C4B922C00B10471;
+			remoteInfo = "Table View - Cell Separator";
+		};
+		DDCBA9711C4B922C00B10471 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDCBA9491C4B922C00B10471 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDCBA9501C4B922C00B10471;
+			remoteInfo = "Table View - Cell Separator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDCBA9511C4B922C00B10471 /* Table View - Cell Separator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Table View - Cell Separator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCBA9541C4B922C00B10471 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDCBA9561C4B922C00B10471 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDCBA9591C4B922C00B10471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDCBA95B1C4B922C00B10471 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDCBA95E1C4B922C00B10471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDCBA9601C4B922C00B10471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDCBA9651C4B922C00B10471 /* Table View - Cell SeparatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Table View - Cell SeparatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCBA9691C4B922C00B10471 /* Table_View___Cell_SeparatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Table_View___Cell_SeparatorTests.swift"; sourceTree = "<group>"; };
+		DDCBA96B1C4B922C00B10471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDCBA9701C4B922C00B10471 /* Table View - Cell SeparatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Table View - Cell SeparatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCBA9741C4B922C00B10471 /* Table_View___Cell_SeparatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Table_View___Cell_SeparatorUITests.swift"; sourceTree = "<group>"; };
+		DDCBA9761C4B922C00B10471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDCBA94E1C4B922C00B10471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCBA9621C4B922C00B10471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCBA96D1C4B922C00B10471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDCBA9481C4B922C00B10471 = {
+			isa = PBXGroup;
+			children = (
+				DDCBA9531C4B922C00B10471 /* Table View - Cell Separator */,
+				DDCBA9681C4B922C00B10471 /* Table View - Cell SeparatorTests */,
+				DDCBA9731C4B922C00B10471 /* Table View - Cell SeparatorUITests */,
+				DDCBA9521C4B922C00B10471 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDCBA9521C4B922C00B10471 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDCBA9511C4B922C00B10471 /* Table View - Cell Separator.app */,
+				DDCBA9651C4B922C00B10471 /* Table View - Cell SeparatorTests.xctest */,
+				DDCBA9701C4B922C00B10471 /* Table View - Cell SeparatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDCBA9531C4B922C00B10471 /* Table View - Cell Separator */ = {
+			isa = PBXGroup;
+			children = (
+				DDCBA9541C4B922C00B10471 /* AppDelegate.swift */,
+				DDCBA9561C4B922C00B10471 /* ViewController.swift */,
+				DDCBA9581C4B922C00B10471 /* Main.storyboard */,
+				DDCBA95B1C4B922C00B10471 /* Assets.xcassets */,
+				DDCBA95D1C4B922C00B10471 /* LaunchScreen.storyboard */,
+				DDCBA9601C4B922C00B10471 /* Info.plist */,
+			);
+			path = "Table View - Cell Separator";
+			sourceTree = "<group>";
+		};
+		DDCBA9681C4B922C00B10471 /* Table View - Cell SeparatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDCBA9691C4B922C00B10471 /* Table_View___Cell_SeparatorTests.swift */,
+				DDCBA96B1C4B922C00B10471 /* Info.plist */,
+			);
+			path = "Table View - Cell SeparatorTests";
+			sourceTree = "<group>";
+		};
+		DDCBA9731C4B922C00B10471 /* Table View - Cell SeparatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDCBA9741C4B922C00B10471 /* Table_View___Cell_SeparatorUITests.swift */,
+				DDCBA9761C4B922C00B10471 /* Info.plist */,
+			);
+			path = "Table View - Cell SeparatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDCBA9501C4B922C00B10471 /* Table View - Cell Separator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDCBA9791C4B922C00B10471 /* Build configuration list for PBXNativeTarget "Table View - Cell Separator" */;
+			buildPhases = (
+				DDCBA94D1C4B922C00B10471 /* Sources */,
+				DDCBA94E1C4B922C00B10471 /* Frameworks */,
+				DDCBA94F1C4B922C00B10471 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Table View - Cell Separator";
+			productName = "Table View - Cell Separator";
+			productReference = DDCBA9511C4B922C00B10471 /* Table View - Cell Separator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDCBA9641C4B922C00B10471 /* Table View - Cell SeparatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDCBA97C1C4B922C00B10471 /* Build configuration list for PBXNativeTarget "Table View - Cell SeparatorTests" */;
+			buildPhases = (
+				DDCBA9611C4B922C00B10471 /* Sources */,
+				DDCBA9621C4B922C00B10471 /* Frameworks */,
+				DDCBA9631C4B922C00B10471 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDCBA9671C4B922C00B10471 /* PBXTargetDependency */,
+			);
+			name = "Table View - Cell SeparatorTests";
+			productName = "Table View - Cell SeparatorTests";
+			productReference = DDCBA9651C4B922C00B10471 /* Table View - Cell SeparatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDCBA96F1C4B922C00B10471 /* Table View - Cell SeparatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDCBA97F1C4B922C00B10471 /* Build configuration list for PBXNativeTarget "Table View - Cell SeparatorUITests" */;
+			buildPhases = (
+				DDCBA96C1C4B922C00B10471 /* Sources */,
+				DDCBA96D1C4B922C00B10471 /* Frameworks */,
+				DDCBA96E1C4B922C00B10471 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDCBA9721C4B922C00B10471 /* PBXTargetDependency */,
+			);
+			name = "Table View - Cell SeparatorUITests";
+			productName = "Table View - Cell SeparatorUITests";
+			productReference = DDCBA9701C4B922C00B10471 /* Table View - Cell SeparatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDCBA9491C4B922C00B10471 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = yalin.ma;
+				TargetAttributes = {
+					DDCBA9501C4B922C00B10471 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 67596MC9X2;
+					};
+					DDCBA9641C4B922C00B10471 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 67596MC9X2;
+						TestTargetID = DDCBA9501C4B922C00B10471;
+					};
+					DDCBA96F1C4B922C00B10471 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 67596MC9X2;
+						TestTargetID = DDCBA9501C4B922C00B10471;
+					};
+				};
+			};
+			buildConfigurationList = DDCBA94C1C4B922C00B10471 /* Build configuration list for PBXProject "Table View - Cell Separator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDCBA9481C4B922C00B10471;
+			productRefGroup = DDCBA9521C4B922C00B10471 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDCBA9501C4B922C00B10471 /* Table View - Cell Separator */,
+				DDCBA9641C4B922C00B10471 /* Table View - Cell SeparatorTests */,
+				DDCBA96F1C4B922C00B10471 /* Table View - Cell SeparatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDCBA94F1C4B922C00B10471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCBA95F1C4B922C00B10471 /* LaunchScreen.storyboard in Resources */,
+				DDCBA95C1C4B922C00B10471 /* Assets.xcassets in Resources */,
+				DDCBA95A1C4B922C00B10471 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCBA9631C4B922C00B10471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCBA96E1C4B922C00B10471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDCBA94D1C4B922C00B10471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCBA9571C4B922C00B10471 /* ViewController.swift in Sources */,
+				DDCBA9551C4B922C00B10471 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCBA9611C4B922C00B10471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCBA96A1C4B922C00B10471 /* Table_View___Cell_SeparatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCBA96C1C4B922C00B10471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCBA9751C4B922C00B10471 /* Table_View___Cell_SeparatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDCBA9671C4B922C00B10471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDCBA9501C4B922C00B10471 /* Table View - Cell Separator */;
+			targetProxy = DDCBA9661C4B922C00B10471 /* PBXContainerItemProxy */;
+		};
+		DDCBA9721C4B922C00B10471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDCBA9501C4B922C00B10471 /* Table View - Cell Separator */;
+			targetProxy = DDCBA9711C4B922C00B10471 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDCBA9581C4B922C00B10471 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDCBA9591C4B922C00B10471 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDCBA95D1C4B922C00B10471 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDCBA95E1C4B922C00B10471 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDCBA9771C4B922C00B10471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDCBA9781C4B922C00B10471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDCBA97A1C4B922C00B10471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Table View - Cell Separator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mayalin.Table-View---Cell-Separator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDCBA97B1C4B922C00B10471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Table View - Cell Separator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mayalin.Table-View---Cell-Separator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DDCBA97D1C4B922C00B10471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Table View - Cell SeparatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mayalin.Table-View---Cell-SeparatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Table View - Cell Separator.app/Table View - Cell Separator";
+			};
+			name = Debug;
+		};
+		DDCBA97E1C4B922C00B10471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Table View - Cell SeparatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mayalin.Table-View---Cell-SeparatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Table View - Cell Separator.app/Table View - Cell Separator";
+			};
+			name = Release;
+		};
+		DDCBA9801C4B922C00B10471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Table View - Cell SeparatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mayalin.Table-View---Cell-SeparatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Table View - Cell Separator";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DDCBA9811C4B922C00B10471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Table View - Cell SeparatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mayalin.Table-View---Cell-SeparatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Table View - Cell Separator";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDCBA94C1C4B922C00B10471 /* Build configuration list for PBXProject "Table View - Cell Separator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCBA9771C4B922C00B10471 /* Debug */,
+				DDCBA9781C4B922C00B10471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDCBA9791C4B922C00B10471 /* Build configuration list for PBXNativeTarget "Table View - Cell Separator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCBA97A1C4B922C00B10471 /* Debug */,
+				DDCBA97B1C4B922C00B10471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDCBA97C1C4B922C00B10471 /* Build configuration list for PBXNativeTarget "Table View - Cell SeparatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCBA97D1C4B922C00B10471 /* Debug */,
+				DDCBA97E1C4B922C00B10471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDCBA97F1C4B922C00B10471 /* Build configuration list for PBXNativeTarget "Table View - Cell SeparatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCBA9801C4B922C00B10471 /* Debug */,
+				DDCBA9811C4B922C00B10471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDCBA9491C4B922C00B10471 /* Project object */;
+}
